@@ -16,17 +16,22 @@ namespace WatchMan
 		/// <summary>
 		/// Текст окна (заголовок)
 		/// </summary>
-		string WindowText {get; }
+		string WindowText { get; }
 		
 		/// <summary>
 		/// Тип ввода (OwnPush, OwnTrig, ExtPush)
 		/// </summary>
-		string InputType {get; }
+		string InputType { get; }
 		
 		/// <summary>
 		/// Заголовок окна слежения
 		/// </summary>
-		string WatchTitle {get; }
+		string WatchTitle { get; }
+		
+		/// <summary>
+		/// Периодичность слежения
+		/// </summary>
+		int WatchPediod { get; }
 		
 		/// <summary>
 		/// Положение окна относительно левого края экрана

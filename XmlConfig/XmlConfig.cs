@@ -32,6 +32,11 @@ namespace WatchMan
 		public string WatchTitle { get; private set; }
 		
 		/// <summary>
+		/// Периодичность слежения
+		/// </summary>
+		public int WatchPediod { get; private set; }
+		
+		/// <summary>
 		/// Положение окна относительно левого края экрана
 		/// </summary>
 		public int Left { get; set; }
@@ -80,6 +85,7 @@ namespace WatchMan
 			this.WindowText = "FreeWindow";
 			this.InputType = "ownpush";
 			this.WatchTitle = "*";
+			this.WatchPediod = 1000;
 			this.WatchColor = "#000000";
 			this.ActionLost = "";
 			this.ActionSeen = "";
@@ -113,8 +119,9 @@ namespace WatchMan
 						{
 							if (node2.Name == "Watch")
 							{
-								this.WatchColor = node2.Attributes["Color"].Value;
 								this.WatchTitle = node2.Attributes["Title"].Value;
+								this.WatchColor = node2.Attributes["Color"].Value;
+								this.WatchPediod = int.Parse(node2.Attributes["Delay"].Value);
 								foreach(XmlNode node3 in node2.ChildNodes)
 								{
 									if (node3.Name == "Seen")
@@ -154,8 +161,9 @@ namespace WatchMan
 							new XElement
 							(
 								"Watch",
-								new XAttribute("Color", this.WatchColor),
 								new XAttribute("Title", this.WatchTitle),
+								new XAttribute("Color", this.WatchColor),
+								new XAttribute("Delay", this.WatchPediod.ToString()),
 								new XElement("Seen", this._actionSeenReal),
 								new XElement("Lost", this._actionLostReal)
 							)

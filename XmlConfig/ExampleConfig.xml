@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <RegionConfig>
 	<Window Title="Window1" Type="OwnPush" Left="50" Top="100" Width="64" Height="32">
-		<Watch Title="Notepad" Color="#A0B1C2">
+		<Watch Title="Notepad" Color="#A0B1C2" Delay="1000">
 			<Seen>
 				kDn=F1
 				delay=100
