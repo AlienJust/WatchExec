@@ -1,0 +1,13 @@
+﻿title=Blue
+w=70
+h=40
+x=93
+y=200
+#-----------------------------
+type=ownPush
+seen=N2.act
+lost=N2.act
+color=0
+#-----------------------------
+delay=666665
+window=Lineage II

@@ -1,0 +1,13 @@
+﻿title=Str
+w=200
+h=84
+x=250
+y=230
+#-----------------------------
+type=extPush
+seen=null.act
+lost=N9.act
+color=16230969
+#-----------------------------
+delay=555
+window=Lineage II

@@ -1,0 +1,13 @@
+﻿title=Sum
+w=70
+h=50
+x=100
+y=280
+#-----------------------------
+type=extPush
+seen=null.act
+lost=N5_N4.act
+color=2056750
+#-----------------------------
+delay=222
+window=Lineage II

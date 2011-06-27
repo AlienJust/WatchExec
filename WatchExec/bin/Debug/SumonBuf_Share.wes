@@ -1,0 +1,13 @@
+﻿title=Share
+w=200
+h=124
+x=250
+y=190
+#-----------------------------
+type=extPush
+seen=null.act
+lost=N6.act
+color=14590521
+#-----------------------------
+delay=555
+window=Lineage II

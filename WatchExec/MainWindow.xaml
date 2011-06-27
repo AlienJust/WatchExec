@@ -1,0 +1,8 @@
+﻿<Window x:Class="WatchExec.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WatchExecutor WPF" Height="169" Width="265" ResizeMode="CanMinimize" WindowStyle="ThreeDBorderWindow" Closing="Window_Closing" Icon="/WatchExec;component/MainIcon.ico" WindowStartupLocation="CenterScreen" TextOptions.TextFormattingMode="Display">
+    <Grid>
+        <Button Content="Create WE..." Margin="12" Name="buttonCreateWE" Click="buttonCreateWE_Click" />
+    </Grid>
+</Window>

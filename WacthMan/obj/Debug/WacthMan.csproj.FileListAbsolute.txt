@@ -1,0 +1,12 @@
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\WacthMan.dll
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\WacthMan.pdb
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\InputManager.dll
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\ResolveAssemblyReference.cache
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\WacthMan.dll
+F:\Documents\Code\WorkedOn\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\WacthMan.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\WacthMan.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\obj\Debug\WacthMan.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\WacthMan.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\WacthMan.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WacthMan\bin\Debug\InputManager.dll

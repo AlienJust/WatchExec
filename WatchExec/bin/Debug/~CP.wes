@@ -1,0 +1,13 @@
+﻿title=CP+
+w=70
+h=62
+x=200
+y=90
+#-----------------------------
+type=ownPush
+seen=null.act
+lost=D7.act
+color=11695872
+#-----------------------------
+delay=222
+window=Lineage II

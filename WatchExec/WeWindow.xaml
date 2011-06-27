@@ -1,0 +1,26 @@
+﻿<Window x:Class="WatchExec.WeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WeWindow" Height="300" Width="300" WindowStartupLocation="Manual" WindowStyle="None" Topmost="True" ShowInTaskbar="False" ResizeMode="CanResizeWithGrip" AllowsTransparency="True" Background="#00000000" FontStretch="Normal" IsTabStop="False" ShowActivated="False" SnapsToDevicePixels="True" Closing="Window_Closing" TextOptions.TextFormattingMode="Display">
+    <Window.Resources>
+        <ControlTemplate x:Key="SimpleButton" TargetType="{x:Type Button}">
+            <Border BorderThickness="1" Padding="0,0" BorderBrush="Black" CornerRadius="0" Background="{TemplateBinding Background}">
+                <Grid >
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Name="content"/>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+    </Window.Resources>
+            <Grid>
+        <Border BorderBrush="White" BorderThickness="1" Name="borderWhite" CornerRadius="1">
+            <Grid>
+                <Border BorderBrush="Black" BorderThickness="1" Name="borderCaption" Height="18" VerticalAlignment="Top" Background="#D43B3B3B" MouseMove="borderCaption_MouseMove">
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" Name="borderBlack" Margin="0,17,0,0" />
+                <Button Template="{DynamicResource SimpleButton}" Content="" Height="18" HorizontalAlignment="Right" Margin="0,0,18,0" Name="buttonStartStop" VerticalAlignment="Top" Width="19" Background="Lime" Foreground="White" FontFamily="Verdana" FontWeight="Bold" FontStretch="UltraExpanded" FontSize="9" IsEnabled="True" ToolTipOpening="buttonStartStop_ToolTipOpening" ToolTip=" " />
+                <Button Template="{DynamicResource SimpleButton}" Content="X" Height="18" HorizontalAlignment="Right" Margin="0,0,0,0" Name="buttonClose" VerticalAlignment="Top" Width="19" Click="buttonClose_Click" Background="#00FF0000" Foreground="Red" FontFamily="Verdana" FontWeight="Bold" FontStretch="UltraExpanded" FontSize="9" />
+                <Label Content="XX++" Height="28" Name="labelCaption" Margin="-1,-2,33,0" VerticalAlignment="Top" Foreground="Yellow" MouseMove="borderCaption_MouseMove" FontFamily="Verdana" FontSize="9" FontWeight="Bold" />
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿title=SS+
+w=70
+h=40
+x=190
+y=700
+#-----------------------------
+type=ownPush
+seen=null.act
+lost=D5.act
+color=8547840
+#-----------------------------
+delay=1111
+window=Lineage II

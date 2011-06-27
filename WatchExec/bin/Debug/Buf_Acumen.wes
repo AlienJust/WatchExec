@@ -1,0 +1,13 @@
+﻿title=Acumen
+w=350
+h=60
+x=260
+y=90
+#-----------------------------
+type=ownPush
+seen=null.act
+lost=N3.act
+color=9706529
+#-----------------------------
+delay=665
+window=Lineage II

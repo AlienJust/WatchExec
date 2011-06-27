@@ -1,0 +1,7 @@
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\bin\Debug\XmlConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\bin\Debug\XmlConfig.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\bin\Debug\IRegionConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\bin\Debug\IRegionConfig.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\obj\x86\Debug\XmlConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\XmlConfig\obj\x86\Debug\XmlConfig.pdb

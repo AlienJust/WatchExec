@@ -1,0 +1,13 @@
+﻿title=Red
+w=70
+h=40
+x=177
+y=200
+#-----------------------------
+type=ownPush
+seen=N1.act
+lost=N1.act
+color=0
+#-----------------------------
+delay=666665
+window=Lineage II

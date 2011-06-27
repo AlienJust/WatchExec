@@ -1,0 +1,5 @@
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\IRegionConfig\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\IRegionConfig\bin\Debug\IRegionConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\IRegionConfig\bin\Debug\IRegionConfig.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\IRegionConfig\obj\x86\Debug\IRegionConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\IRegionConfig\obj\x86\Debug\IRegionConfig.pdb
