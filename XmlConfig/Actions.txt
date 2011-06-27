@@ -1,0 +1,5 @@
+﻿delay=1000
+kDn=F1
+delay=100
+kUp=F1
+delay=1000

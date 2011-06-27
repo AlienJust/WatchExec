@@ -19,24 +19,34 @@ namespace WatchMan
 		string WindowText {get; }
 		
 		/// <summary>
+		/// Тип ввода (OwnPush, OwnTrig, ExtPush)
+		/// </summary>
+		string InputType {get; }
+		
+		/// <summary>
+		/// Заголовок окна слежения
+		/// </summary>
+		string WatchTitle {get; }
+		
+		/// <summary>
 		/// Положение окна относительно левого края экрана
 		/// </summary>
-		int Left { get; }
+		int Left { get; set; }
 		
 		/// <summary>
 		/// Положение окна относительно верхнего края экрана
 		/// </summary>
-		int Top { get; }
+		int Top { get; set; }
 		
 		/// <summary>
 		/// Ширина окна
 		/// </summary>
-		int Width { get; }
+		int Width { get; set; }
 		
 		/// <summary>
 		/// Высота окна
 		/// </summary>
-		int Height { get; }
+		int Height { get; set; }
 		
 		/// <summary>
 		/// Цвет за которым необходимо следить
@@ -52,5 +62,16 @@ namespace WatchMan
 		/// Действие при исчезновении цвета
 		/// </summary>
 		string ActionLost { get; }
+		
+		/// <summary>
+		/// Загружает конфиг
+		/// </summary>
+		/// <param name="filename">Имя файла для загрузки</param>
+		void Load(string filename);
+		
+		/// <summary>
+		/// Сохраняет конфиг
+		/// </summary>
+		void Save();
 	}
 }

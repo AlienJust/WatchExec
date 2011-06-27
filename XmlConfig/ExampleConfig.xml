@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0"?>
 <RegionConfig>
-	<Window Title="Window1" Left="50" Top="100" Width="64" Height="32" />
-	<Watch Color="#A0B1C2">
-		<Seen>
-			kDn=F1
-			delay=100
-			kUp=F1
-		</Seen>
-		<Lost>
-			//do nothing
-		</Lost>
-	</Watch>
+	<Window Title="Window1" Type="OwnPush" Left="50" Top="100" Width="64" Height="32">
+		<Watch Title="Notepad" Color="#A0B1C2">
+			<Seen>
+				kDn=F1
+				delay=100
+				kUp=F1
+				#include actions.txt
+			</Seen>
+			<Lost>
+				//do nothing
+			</Lost>
+		</Watch>
+	</Window>
 </RegionConfig>

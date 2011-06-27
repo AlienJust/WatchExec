@@ -34,3 +34,7 @@ D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\obj\x86\Debug\Generate
 D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\obj\x86\Debug\WatchExec.exe
 D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\obj\x86\Debug\WatchExec.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\bin\Debug\IRegionConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\bin\Debug\XmlConfig.dll
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\bin\Debug\IRegionConfig.pdb
+D:\Documents\Code\#c\_Games\WatchExec\WatchExec\WatchExec\bin\Debug\XmlConfig.pdb
