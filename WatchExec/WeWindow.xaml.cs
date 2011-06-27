@@ -68,6 +68,7 @@ namespace WatchExec
 			this.Title = this._settings.WindowText;
 			
 			this.windowTitle = this._settings.WatchTitle;
+			this.reuseDelay = this._settings.WatchPediod;
 			
 			this.Left = this._settings.Left;
 			this.Top = this._settings.Top;
