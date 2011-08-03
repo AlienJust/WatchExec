@@ -1,0 +1,1 @@
+GitHub stronly recommended, so I've created it :D
